@@ -1,0 +1,37 @@
+.Effect{
+  font-family: Josefin Sans ;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.Effect:hover {
+  color:#ff6600 !important; /* hover pe orange color */
+}
+
+
+
+.Effect::after {
+  width: 100%;
+}
+.textcolor{
+    color:#595699
+}
+
+.btncolor {
+  background-color:#ff6600 !important;
+  color: white !important;
+  font-weight: bold;
+  
+}
+
+.btn-shadow {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+ 
+}
+
+
+.Navbaritems{
+  display: flex;
+  justify-content: end;
+}

@@ -1,0 +1,266 @@
+.Hero-Heading{
+   margin-top: 100px;
+   font-size: 60px;
+   color: rgb(66, 63, 141);
+   font-weight: 700;
+}
+.Hero-banner{
+    
+    height: 45rem;
+    z-index: -2;
+}
+P{
+    font-size: 20px;
+    font-family:'Roboto',sans-serif ;
+}
+
+.Hero-btn{
+    background-color: #ff6600 ;
+    color: white;
+    padding: 0 50px;
+}
+
+
+.Hero-img{
+    width: 75%;
+    margin-left: 300px;
+    position: absolute;
+    z-index: -1;
+    bottom: 1px;
+    
+}
+#subtext{
+    font-size: 32px;
+    color:rgb(66, 63, 141);
+    font-weight: 700;
+}
+#subpara{
+    font-size: 18px;
+    color:rgb(121, 119, 162);    
+    font-weight: 400;
+}
+
+.Rocket-Section{
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
+
+.Rocket-img
+    h2{
+        font-size: 46px;
+        font-weight: 700;
+        color: rgb(66, 63, 141);
+        line-height: 64.4px;
+    }
+    p{
+        font-size: 18px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        line-height: 32.4px;
+
+    }
+    button{
+        margin-top: 10px;
+        font-weight: 400;
+    }
+
+.subtext2
+    h2{
+     font-size: 46px;
+        font-weight: 700;
+        color: rgb(66, 63, 141);
+        line-height: 64.4px;
+    }
+
+.card1{
+    
+    padding: 10px 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: start;
+    border: none;
+    
+   
+    
+}
+
+.cardtitle{
+    
+     margin-left: 30px;
+     font-size: 25px;
+     font-weight: 700;
+     text-decoration: none;
+     color: rgb(66, 63, 141);
+     
+    
+}
+.paratext1{
+    margin-left: 50px;
+    font-size: 16px;
+    color: rgb(121, 119, 162);
+}
+
+.cardlayout{
+    height: 470px;
+    display: flex;
+   
+}
+
+
+/* card section 2 */
+.card2{
+    border: none;
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(255, 247, 254);
+    
+}
+
+.card2:hover{
+    background-color: white;
+    box-shadow: 3px 3px 20px 10px rgb(255, 247, 254)
+}
+#paracard2{
+    
+    border: 1.2px solid black;
+    border-radius: 100px;
+    color: black;
+    font-weight: 600;
+    width: 100px;
+    margin: auto;
+}
+
+.cardsection2 h4{
+    color: #ff6600;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.cardsection2 
+p{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: rgb(121, 119, 162);
+
+}
+ul{
+    list-style-type: none;
+    color: rgb(121, 119, 162);
+    font-weight: 300;
+    font-style: 17px;
+    line-height: 24px;
+}
+    
+li{
+   font-family: Roboto, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25.5px;
+  color: rgb(121, 119, 162);
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none solid rgb(121, 119, 162);
+  text-align: none solid rgb(121, 119, 162);
+  vertical-align: baseline;    
+  margin-top: 20px; 
+}
+
+.blankspace{
+    height: 300px;
+    background-color: rgb(67, 62, 138);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: space-between;
+    color: white;
+}
+
+.blankspace button{
+    margin-left: 250px;
+}
+
+.blankspace h2{
+    font-size: 44px;
+  font-weight: 700;
+  line-height: 66px;
+  margin-left: 40px;
+}
+
+.blankspace p{
+    margin-left: 40px;
+}
+.footercss{
+    /* display: flex;
+    flex-direction: row; */
+    color: #ff6600;
+}
+/* ---------------------------- */
+
+
+
+footer{
+margin: 50px;
+}
+
+.footerLeft{    
+    
+
+}
+
+#footerlogo{
+    margin-bottom: 40px;
+}
+footer P{
+    font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: rgb(121, 119, 162);
+  
+}
+#footernavheading{
+    margin-left: 30px;
+    margin-top: 28px;
+    font-family: Roboto, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20.4px;
+  color: rgb(66, 63, 141);
+}
+
+.footerli{
+    color:rgb(121, 119, 162);
+    font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footerli:hover{
+    color: #ff6600;
+    text-decoration: underline;
+}
+#FooterNum{
+
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgb(255, 87, 0);
+}
+
+.Copyright{
+    font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(121, 119, 162);
+}

@@ -1,0 +1,20 @@
+.abouthead h2{
+   font-family: "Josefin Sans", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 61.6px;
+  color: rgb(66, 63, 141);
+}
+
+.abouthead p{
+     font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: rgb(66, 63, 141);
+}
+
+.aboutdiv{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,15 @@
+/* Reset / Boilerplate CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+
+  line-height: 1.6;
+  /* background-color: #fff7fe; */
+  color: #595699;
+}
+
