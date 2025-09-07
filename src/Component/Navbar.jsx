@@ -1,11 +1,9 @@
-import React from 'react'
-import { useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import "../assets/Styles/Navbar.css"; 
-import { NavLink } from 'react-router-dom';
-
-
+import React from "react";
+import { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "../assets/Styles/Navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -54,12 +52,6 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item me-4">
-                <NavLink to="/Blog" className="nav-link textcolor Effect">
-                  Blog
-                </NavLink>
-              </li>
-
-              <li className="nav-item me-4">
                 <NavLink to="/Contact" className="nav-link textcolor Effect">
                   Contact
                 </NavLink>
@@ -76,7 +68,7 @@ const Navbar = () => {
         </div>
       </nav>
     </div>
-  ); 
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
