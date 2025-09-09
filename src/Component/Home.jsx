@@ -1,11 +1,12 @@
 import React from "react";
 import "../assets/Styles/Home.css";
-import Banner from "../assets/Images/10026.png"
+import Banner from "../assets/Images/10026.png";
 import Rocket from "../assets/Images/10018.png";
 import Search from "../assets/Images/10016.png";
-import Card_1 from "./card_1";
+
 import Card_2 from "./Card_2";
 import Blue_bg from "./Blue_bg";
+import Card_1 from "./Card_1";
 
 const Home = () => {
   return (
@@ -93,7 +94,7 @@ const Home = () => {
       <br />
       {/* card section */}
 
-      <Card_1/>
+      <Card_1 />
 
       {/* blank gap */}
       <div style={{ height: "200px" }}></div>
@@ -116,11 +117,7 @@ const Home = () => {
             </div>
             {/* img */}
             <div className="col-md-6 ">
-              <img
-                src={Search}
-                className="img-fluid"
-                alt=""
-              />
+              <img src={Search} className="img-fluid" alt="" />
             </div>
           </div>
         </div>
@@ -145,7 +142,7 @@ const Home = () => {
       <br />
       {/* card section 2 */}
 
-      <Card_2/>
+      <Card_2 />
 
       <br />
       <br />
@@ -153,7 +150,7 @@ const Home = () => {
       <br />
       <br />
 
-      <Blue_bg/>
+      <Blue_bg />
 
       <br />
     </>

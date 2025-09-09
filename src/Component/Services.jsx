@@ -1,5 +1,5 @@
 import React from "react";
-import Card_1 from "./card_1";
+import Card_1 from "./Card_1";
 import Card_2 from "./Card_2";
 import Blue_bg from "./Blue_bg";
 
@@ -42,7 +42,7 @@ const Services = () => {
       <br />
 
       {/* card section 1 */}
-      <Card_1/>
+      <Card_1 />
 
       <br />
       <br />
@@ -70,7 +70,7 @@ const Services = () => {
       <br />
       {/* card section 2 */}
 
-      <Card_2/>
+      <Card_2 />
 
       <br />
 
@@ -79,7 +79,7 @@ const Services = () => {
       <br />
 
       {/* Blue bg text */}
-      <Blue_bg/>
+      <Blue_bg />
     </>
   );
 };
