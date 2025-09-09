@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../assets/Styles/Navbar.css";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.png.webp";
 
 const Navbar = () => {
   return (
@@ -12,11 +13,7 @@ const Navbar = () => {
 
       <nav className="navbar navbar-expand-lg  px-3">
         <a className="navbar-img mt-4" href="#">
-          <img
-            src="../src/assets/logo.png.webp"
-            alt=""
-            className="img-fluid me-4"
-          />
+          <img src={logo} alt="" className="img-fluid me-4" />
         </a>
 
         {/* Toggle Button for Mobile View */}
@@ -49,6 +46,10 @@ const Navbar = () => {
                 <NavLink to="/Services" className="nav-link textcolor Effect">
                   Services
                 </NavLink>
+              </li>
+
+              <li className="nav-item me-4">
+                <NavLink className="nav-link textcolor Effect">Blog</NavLink>
               </li>
 
               <li className="nav-item me-4">

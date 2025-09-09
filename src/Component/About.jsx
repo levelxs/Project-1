@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/Styles/About.css";
+import Blue_bg from "./Blue_bg";
 
 const About = () => {
   return (
@@ -93,28 +94,7 @@ const About = () => {
       </section>
 
       {/* blueback ground text */}
-      <div className="container-fluid">
-        <div className="row blankspace">
-          <div className="col-md-6">
-            <div>
-              <h2>Let's talk about your project</h2>
-            </div>
-            <div>
-              <p>
-                Content marketing is nothing but offering users value. It is not
-                just about traffic minion consectetur adipiscing elitd do
-                eiusmod tempor incididun.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <button className=" btn btn-light rounded-pill  py-3">
-              Explore Us
-            </button>
-          </div>
-        </div>
-      </div>
+      <Blue_bg />
       <br />
       <br />
     </>

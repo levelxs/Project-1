@@ -66,7 +66,6 @@ const Footer = () => {
             Colorlib
           </p>
         </div>
-        
       </footer>
     </>
   );
